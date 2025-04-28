@@ -4,6 +4,7 @@ Welcome to the repository!. This is an innovative topological deep learning mode
 
 
 # Model Architecture
+Please refer to the main paper.
 
 
 
