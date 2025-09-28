@@ -158,7 +158,7 @@ def main():
     optimizer = optim.Adam(model.parameters(), lr=0.001)
 
     # K-Fold Cross Validation
-    kfold = KFold(n_splits=10, shuffle=True)
+    kfold = KFold(n_splits=10, shuffle=True,random_state=123)
     loss_per_fold = []
     acc_per_fold = []
     pre_per_fold = []
