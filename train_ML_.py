@@ -63,7 +63,7 @@ X = scaler.fit_transform(X)
 
 # Define K-fold Cross Validator
 num_folds = 10
-kfold = KFold(n_splits=num_folds, shuffle=True, random_state=42)
+kfold = KFold(n_splits=num_folds, shuffle=True, random_state=123)
 
 # Initialize metrics storage
 acc_per_fold, precision_per_fold, recall_per_fold, f1_per_fold = [], [], [], []
